@@ -1,0 +1,32 @@
+{
+	"type": "record",
+	"name": "LaunchRequest",
+	"fields": [
+		{
+		 	"name": "launchContexts", 
+		 	"type": {
+		          		"type": "array", 
+		 		  		"items": {
+		 		  				"type": "record",
+		 		  				"name": "LaunchContext",
+		 		  				"fields": [
+		 		  					{"name": "en_vars", "type": {
+		 		  						"type": "array", "items": "string"}
+		 		  					},
+		 		  					{"name": "args", "type": "string"},
+		 		  					{"name": "host_name", "type": "string"},
+		 		  					{"name": "name", "type": {
+		 		  										"type": "record",
+		 		  										"name": "ProcessName",
+		 		  										"fields": [
+		 		  											{"name": "jobid", "type": "int"},
+															{"name": "vpid", "type": "int"}	
+		 		  										]	
+		 		  									   }
+		 		  				    }
+		 		  				 ]
+		 		  			}
+		 	        }
+		}	
+	]
+}

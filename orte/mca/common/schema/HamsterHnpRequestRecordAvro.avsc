@@ -1,0 +1,13 @@
+{
+	"type": "record",
+	"name": "HamsterHnpRequest",
+	"fields": [
+		{"name": "request",  "type": "bytes"},
+		{"name": "msg_type", "type": {
+								      "type": "enum",
+  									  "name": "MsgType",
+  									  "symbols" : ["ALLOCATE", "LAUNCH", "REGISTER", "FINISH", "HEARTBEAT"]
+								      }
+		}
+	]
+}

@@ -1,0 +1,8 @@
+{
+	"type": "record",
+	"name": "FinishRequest",
+	"fields": [
+		{"name": "succeed",  "type": "boolean"},
+		{"name": "diagnostics", "type": "string"}
+	]
+}

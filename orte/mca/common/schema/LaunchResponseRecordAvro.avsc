@@ -1,0 +1,27 @@
+{
+	"type": "record",
+	"name": "LaunchResponse",
+	"fields": [
+			   	{"name": "results", "type": {
+			   							"type": "array",
+			   							"items": {
+			   								"type": "record",
+			   								"name": "LaunchResult",
+			   								"fields": [
+			   									{"name": "is_successful", "type": "boolean"},
+			   									{"name": "name", "type": {
+			   														"name": "ProcessName",
+			   														"type": "record",
+			   														"fields": [
+			   															{"name": "jobid", "type": "int"},
+																		{"name": "vpid", "type": "int"}	
+			   														]
+			   													 }
+			   									}
+			   								]
+			   							}
+			   									
+								     }
+			    }
+	]
+}

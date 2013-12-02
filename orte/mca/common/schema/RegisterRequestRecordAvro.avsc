@@ -1,0 +1,7 @@
+{
+	"type": "record",
+	"name": "RegisterRequest",
+	"fields": [
+		{"name": "register_request", "type": "null"}
+	]
+}

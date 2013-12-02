@@ -1,0 +1,35 @@
+{
+	"type": "record",
+	"name": "HeartBeatResponse",
+	"fields": [
+		{"name": "completed_processes", "type": {
+						"type": "array",
+						"items": {
+							"type": "record",
+							"name": "ProcessStatus",
+							"fields": [
+								{"name": "name", "type": {
+													"type": "record",
+													"name": "ProcessName",
+													"fields": [
+														{"name": "jobid", "type": "int"},
+														{"name": "vpid", "type": "int"}	
+													]
+											 	  }
+								},
+								
+								{"name": "state", "type": {
+													    "type": "enum",
+  									  					"name": "MsgType",
+  									                    "symbols" : ["RUNNING", "COMPLETED"]
+												  }
+								},
+								
+								{"name": "exit_value", "type": "int"}
+							]
+							
+						}
+					 } 
+		}
+	]
+}

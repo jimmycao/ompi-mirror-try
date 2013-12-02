@@ -1,0 +1,20 @@
+{
+	"type": "record",
+	"name": "AllocateResponse",
+	"fields": [
+		{"name": "node_resources",  "type": {
+												"type": "array",
+												"items": {
+															"type": "record",
+															"name": "NodeResource",
+															"fields": [
+															           	{"name": "host_name", "type": "string"},
+																	   	{"name": "slot", "type": "int"}
+														              ]
+														
+														 }
+												
+											}
+		}
+	]
+}

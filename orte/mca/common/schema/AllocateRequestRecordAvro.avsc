@@ -1,0 +1,7 @@
+{
+	"type": "record",
+	"name": "AllocateRequest",
+	"fields": [
+		{"name": "resource_count",  "type": "int"}
+	]
+}

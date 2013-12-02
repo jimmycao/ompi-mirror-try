@@ -1,0 +1,7 @@
+{
+	"type": "record",
+	"name": "FinishResponse",
+	"fields": [
+		{"name": "finish_response", "type": "null"}
+	]
+}
