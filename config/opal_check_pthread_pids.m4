@@ -100,9 +100,8 @@ AS_IF([test "$OPAL_THREADS_HAVE_DIFFERENT_PIDS" = "1"],
        AC_MSG_WARN([PIDs for threads in the same process.  Open MPI 1.4.x]) 
        AC_MSG_WARN([supports such systems, as does at least some versions the])
        AC_MSG_WARN([Open MPI 1.5.x series.])
-       AC_MSG_ERROR([Cannot continue])
       ])
-
+#AC_MSG_ERROR([Cannot continue])
 #
 # if pthreads is not available, then the system does not have an insane threads
 # model

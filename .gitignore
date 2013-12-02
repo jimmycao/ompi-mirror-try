@@ -770,4 +770,4 @@ ompi/mca/io/romio/romio/confdb/ltsugar.m4
 ompi/mca/io/romio/romio/confdb/ltversion.m4
 ompi/mca/io/romio/romio/confdb/lt~obsolete.m4
 oshmem/tools/oshmem_info/oshmem_info
-shmem/tools/oshmem_info/oshmem_info.1
+oshmem/tools/oshmem_info/oshmem_info.1
