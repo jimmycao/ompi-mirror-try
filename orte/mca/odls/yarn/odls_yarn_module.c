@@ -135,6 +135,8 @@
 #include "orte/mca/sensor/sensor.h"
 #include "orte/mca/rml/rml.h"
 
+#include "opal/mca/event/event.h"
+
 #define ORTE_RML_TAG_YARN_SYNC_REQUEST      97
 #define ORTE_RML_TAG_YARN_SYNC_RESPONSE     98
 

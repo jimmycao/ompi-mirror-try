@@ -87,6 +87,7 @@
 #include "orte/mca/common/base/heartbeat.h"
 #include "orte/mca/common/base/launch.h"
 
+#include "opal/mca/event/event.h"
 
 #define ORTE_RML_TAG_YARN_SYNC_REQUEST      97
 #define ORTE_RML_TAG_YARN_SYNC_RESPONSE     98
