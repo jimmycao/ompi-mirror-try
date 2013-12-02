@@ -3,7 +3,6 @@
 
 #include <stdbool.h>
 #include <stdint.h>
-#include <pthread.h>
 
 #include "opal/util/output.h"
 #include "base/allocate.h"
