@@ -741,7 +741,7 @@ ompi_show_title "Library and Function tests"
 OMPI_CHECK_FUNC_LIB([openpty], [util])
 
 AC_CHECK_LIB([nsl], [gethostbyname])
-AC_CHECK_LIB([avro], [main], [], echo "NOT FOUND AVRO" && exit -1)
+AC_CHECK_LIB([avro], [avro_value_write], [], [echo "Cannot find avro" && exit -1])
 AC_CHECK_LIB([socket], [socket])
 
 # Solaris has sched_yield in -lrt, usually in libc
